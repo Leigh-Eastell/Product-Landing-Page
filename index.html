@@ -8,37 +8,46 @@
   </head>
   <body>
     <header id="header">
-      <div id="header-img"></div>
+      <h1>Guitar Lessons</h1>
+      <img 
+id="header-img" src="https://images.freeimages.com/clg/images/21/212167/rock-star-with-guitar_p" alt="guitar-logo">
       <nav id="nav-bar">
         <ul>
           <li>
-            <a class="nav-link"></a>
+            <a class="nav-link" href="#Welcome">Welcome</a>
           </li>
           <li>
-            <a class="nav-link"></a>
+            <a class="nav-link"
+href="#Introduction">Introduction</a>
           </li>
           <li>
-            <a class="nav-link"></a>
+            <a class="nav-link"
+href="#form">Registration Form</a>
           </li>
         </ul>
       </nav>
       </header>
       <main>
-        <iframe id="video"></iframe>
+        <h2 id="Welcome">Welcome</h2>
+        <p>Welcome to Guitar Lessons, whether you are brand new to guitar and haven't had your first lesson yet. You can play a few jams and songs, or you're an expert and are looking for new challenges. You are all welcome and will be playing along with your axe soon! Enjoy!</p>
+        <h2 id="Introduction">Introduction</h2>
+        <p></p>
+        <iframe id="video" src="https://youtu.be/6V4SRq1SaMI"></iframe>
         <h4>Register Your Interest Form</h1>
-        <form id="form">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
           <label>Name
             <input></input>
           </label>
           <label>Email
-            <input id="email" placeholder="Your Email" type"email"></input>
+            <input 
+name="email" id="email" placeholder="Your Email" type="email"></input>
           </label>
           <label>Class
             <select>
               <option>(Select One)</option>
               <option>Beginner</option>
-              <option></option>
-              <option></option>
+              <option>Intermeddiate</option>
+              <option>Expert</option>
             </select>
           </label>
           <label>Any special requirements
@@ -47,5 +56,6 @@
           <input id="submit" type="submit">
         </form>
       </main>
+      <p>*Disclaimer* All of the content above is strictly for my own coding education purposes and is in no way designed to advertise guitar lessons or endorse any youtube channels. </p>
   </body>
 </html>
